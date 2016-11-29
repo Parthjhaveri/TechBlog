@@ -1,0 +1,725 @@
+
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  height: 100%;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* /////////////////////////////////////////////---HOME PAGE CSS ---//////////////////////////////////////*/
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.header  {
+  width: auto;
+  height: 650px;
+  border: 1px solid black;
+  background-image: url("http://cdn.wonderfulengineering.com/wp-content/uploads/2014/01/Technology-Wallpapers-5.jpg");
+  background-size: 100%;
+  background-position: center center;
+  display: inline-block;
+}
+
+#splasherheading {
+  color: white;
+  font-size: 60px;
+  margin-top: 250px;
+  padding: 20px;
+  font-family: 'Bungee Hairline', cursive;
+}
+
+#redred {
+  color: red;
+}
+
+.whiteback {
+  background-color: #232231;
+  opacity: 0.6;
+  width: 70%;
+  height: auto;
+  justify-content: center;
+}
+
+
+.conttw {
+  width: auto;
+  height: auto;
+  background-color: white;
+  margin-top: 280px;
+  transition: 2s;
+  margin-right: -2px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*.conttw:hover {
+  background-image: url("http://cdn.osxdaily.com/wp-content/uploads/2014/01/bright-blue-apple-logo-wallpaper.jpg");
+  background-position: center top;
+  background-size: 100%;
+  transition: 2s;
+  background-repeat: no-repeat;
+}
+*/
+#iphone {
+  width: 300px;
+  height: 450px;
+}
+
+.nav {
+  float: left;
+  width: 50px;
+  height: 1000px;
+  background-color: black;
+  /*transition: 0.5s;*/
+  position: fixed;
+  margin-left: -1px;
+  z-index: 900;
+  opacity: 1;
+}
+
+.nav:hover {
+  width: 150px;
+  transition: 0.5s;
+  opacity: 1;
+} 
+
+.contentspace {
+  width: auto;
+  height: auto;
+  border: 1px solid grey;
+  /*transition: 1s;*/
+  font-family: 'Bungee Hairline', cursive;
+  color: white;
+  overflow-x: hidden;
+  margin: 13px;
+}
+
+.contentspace: hover {
+  border: 1px solid red;
+  /*transition: 1s;*/
+  background-color: red;
+}
+
+#topone {
+  margin-top: 150px;
+}
+
+#toptwo {
+  margin-top: 20px;
+}
+
+#topthree {
+  margin-top: 20px;
+}
+
+.yellow {
+  float: right;
+  width: 500px;
+  height: auto;
+  background-color: #3090C7;
+  display: inline-block;
+  margin-right: -200px;
+  margin-top: 150px;
+  color: white;
+}
+
+#most {
+  font-family: 'Bungee Hairline', cursive;
+  font-weight: bolder;
+}
+
+#arrow {
+  margin-right: 20px;
+  color: black;
+  margin-top: 5px;
+}
+
+.whiteinfo {
+  float: right;
+  width: 600px;
+  padding: 40px;
+  height: 300px;
+  background-color: #2B3856;
+  margin-top: 50px;
+  padding-top: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  color: white;
+  transition: .5s;
+}
+
+.whiteinfo:hover {
+  width: 700px;
+  transition: .5s;
+}
+
+.orangeinfo {
+  background-color: #659EC7;
+  float: left;
+  width: 600px;
+  padding: 40px;
+  height: 300px;
+  margin-top: 50px;
+  padding-top: 50px;
+  font-family: 'Titillium Web', sans-serif;
+  padding-left: 80px;
+  transition: .5s;
+}
+
+.orangeinfo:hover {
+  width: 700px;
+  transition: .5s;
+}
+
+.sponsored {
+  width: 100%;
+  height: auto;
+  background-color: #2B3856;
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  padding-left: 150px;
+  padding-right: 150px;
+  z-index: 500;
+}
+
+.paidpartner {
+  width: 100%;
+  height: auto;
+  background-color: #1a1a1a;
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.intro {
+  width: auto;
+  height: auto;
+  background-color: #1589FF;
+  margin-top: 40px;
+  font-family: 'Exo 2', sans-serif;
+  color: white;
+  font-weight: bolder;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#introintro {
+  font-size: 52px;
+}
+
+#redhr {
+  width: 900px;
+  border: 2px solid red;
+}
+
+.box {
+  width: 250px;
+  height: 300px;
+  border: 1px solid white;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#lt {
+  background-image: url(https://s-media-cache-ak0.pinimg.com/736x/b1/66/32/b166328e82a488eea596232c43d1a055.jpg);
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#doc {
+  background-image: url(http://www.crossroadseldercare.com/wp-content/uploads/2015/09/Doctor-visit.jpg);
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#gc {
+  background-image: url(http://i2.cdn.turner.com/cnnnext/dam/assets/140130170506-george-clooney-file-story-top.jpg);
+  background-position: center center;
+  background-size: 120%;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#contentone {
+  margin-top: 100px;
+}
+
+.list {
+  display: inline-block;
+}
+
+#contentone {
+  display: inline-block;
+  float: left;
+}
+
+#contenttwo {
+  display: inline-block;
+  float: center;
+}
+
+#contentthree {
+  display: inline-block;
+  float: right;
+}
+
+#futurism {
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  width: 400px;
+  height: 300px;
+}
+
+#ham {
+  color: red;
+  float: right;
+  margin: 10px;
+  margin-top: 80px;
+}
+
+#blog {
+  color: red;
+}
+
+ /*------------------------------------- FOOTER CSS ------------------------------------- */
+.footerCon{
+  width: auto;
+  height: 100px;
+  background-color: #1a1a1a;
+  font-family: 'Bungee Hairline', cursive;
+  color: white;
+  margin-top: -20px;
+  z-index: 200;
+  /*added styles*/
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  text-align: center;
+}
+
+.footerText {
+  display: inline-block;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: silver;
+}
+
+.headerDiv {
+  width: auto;
+  height: auto;
+  background-color: black;
+}
+
+.searchbar {
+  float: right;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  margin-right: 50px;
+  display: inline-block;
+  font-family: 'Bungee Hairline', cursive;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#mag {
+  float: right;
+  margin-right: 20px;
+  margin-left: -20px;
+  color: silver;
+}
+
+.logo {
+  float: left;
+  color: white;
+  font-weight: bolder;
+  font-family: 'Bungee Hairline', cursive;
+  margin: 10px;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////
+/* ////////////////////////////////////////////---POSTS PAGE CSS ---//////////////////////////////////////*/
+ ///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+.postsHeader {
+  width: auto;
+  height: 500px;
+  border: 1px solid #FFDB58;
+  z-index: -100;
+  background-color: #1589FF;
+  font-family: 'Bungee Hairline', cursive;
+  transition: 2s;
+}
+
+.postsHeader:hover {
+  background-color: #F62817;
+  transition: 2s;
+}
+
+#poststitle {
+  font-family: 'Bungee Hairline', cursive;
+  color: white;
+  margin-top: 200px;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+#createyourown {
+  font-weight: bolder;
+  color: white;
+}
+
+#posthr {
+  width: 450px;
+  border: 1px solid #FFDB58;
+}
+
+.postsbody {
+  width: auto;
+  height: auto;
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.blogbox {
+  width: 800px;
+  height: 400px;
+  /*overflow-y: scroll;*/
+  background-color: #DC381F;
+  display: inline-block;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/*::-webkit-scrollbar {
+  display: none;
+}*/
+
+.leftarr {
+  display: inline-block;
+  float: left;
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-left: 100px;
+  margin-top: 100px;
+  transition: .2s;
+}
+
+.leftarr:hover {
+  background-color: #1a1a1a;
+  transition: .2s;
+  border: 1px solid #1a1a1a;
+  color: white;
+}
+
+.rightarr {
+  display: inline-block;
+  float: right;
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 50px;
+  margin-right: 100px;
+  margin-top: 100px;
+  transition: .2s;
+}
+
+.rightarr:hover {
+  background-color: #1a1a1a;
+  transition: .2s;
+  border: 1px solid #1a1a1a;
+  color: white;
+}
+
+.comments {
+  width: 800px;
+  height: 200px;
+  margin-top: 30px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+#readComments {
+  font-family: 'Bungee Hairline', cursive;
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
+.datetitleauthor {
+  width: auto;
+  height: 40px;
+}
+
+.date {
+  width: 265px;
+  height: 39px;
+  float: left;
+  display: inline-block;
+}
+
+.title {
+  width: 265px;
+  height: 39px;
+  float: center;
+  display: inline-block;
+  border-top-color: black;
+  border-left-color: black;
+}
+
+.author {
+  width: 265px;
+  height: 39px;
+  float: right;
+  display: inline-block;
+}
+
+.posttext {
+  width: 500px;
+  height: 400px;
+  margin-top: -1px;
+  overflow-y: scroll;
+  color: white;
+  text-align: left;
+  padding: 50px;
+  transition: .5s;
+}
+
+.posttext:hover {
+  background-color: #FFE5B4;
+  color: #1a1a1a;
+  transition: .5s;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* ////////////////////////////////////////////---CREATE PAGE CSS ---/////////////////////////////////////*/
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.createdivheader {
+  width: auto;
+  height: 200px;
+  background-color: #2B3856;
+  transition: .5s;
+}
+
+.createdivheader:hover {
+  background-color: #15317E;
+  transition: .5s;
+}
+
+.createdivbody {
+  width: auto;
+  height: auto;
+  background-color: white;
+  z-index: 900;
+}
+
+.createform {
+  width: 600px;
+  height: 500px;
+  border: 1px solid silver;
+  margin: 40px;  
+  margin-bottom: 50px;
+  padding: 30px;
+  transition: .5s;
+}
+
+.createform:hover {
+  background-color: #F0F8FF;
+  transition: .5s;
+}
+
+#nameinput {
+  width: 250px;
+  height: 35px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Bungee Hairline', cursive;
+  font-weight: bolder;
+  color: black;
+  font-size: 16px;
+  display: inline-block;
+  float: left;
+}
+
+#nameinput:hover {
+  border: 1px solid red;
+}
+
+#title {
+  width: 250px;
+  height: 35px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Bungee Hairline', cursive;
+  font-weight: bolder;
+  color: black;
+  font-size: 16px;
+  display: inline-block;
+  float: right;
+}
+
+#title:hover {
+  border: 1px solid red;
+}
+
+#write {
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: left;
+  font-family: 'Bungee Hairline', cursive;
+  font-weight: bolder;
+  color: black;
+  font-size: 16px;
+  display: inline-block;
+  overflow-x: hidden;
+  padding: 20px;
+}
+
+#write:hover {
+  border: 1px solid red;
+}
+
+#buttonsubmitblog {
+  width: 100px;
+  height: 40px;
+  float: right;
+  background-color: #F62817;
+  border-radius: 5px;
+  border: 1px solid black;
+  font-family: 'Bungee Hairline', cursive;
+  font-weight: bolder;
+  margin-top: 20px;
+  color: white;
+  transition: .5s;
+}
+
+#buttonsubmitblog:hover {
+  background-color: #64E986;
+  transition: .5s;
+  color: black;
+}
+
+#posthead {
+  font-family: 'Exo 2', sans-serif;
+  color: white;
+  padding-top: 100px;
+  transition: .5s;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////---INDIVIDUALPOSTS PAGE CSS ---//////////////////////////////////*/
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.indiv {
+  width: auto;
+  height: auto;
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.post {
+  width: 600px;
+  height: auto;
+  border: 1px solid black;
+  padding: 100px;
+  font-family: 'Exo 2', sans-serif;
+  color: black;
+  text-align: left;
+  display: inline-block;
+}
+
+.social {
+  float: left;
+  width: 75px;
+  height: 200px;
+  border: 1px solid black;
+  margin-left: 250px;
+  transition: .5s;
+  padding: 10px;
+  position: fixed;
+}
+
+.social:hover {
+  height: 250px;
+  transition: .5s;
+  padding-top: 40px;
+}
+
+#fb {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 5px;
+}
+
+.adposter {
+  float: right;
+  width: 300px;
+  height: 200px;
+  margin-top: -350px;
+  position: absolute;
+  margin-left: 1000px;
+  z-index: 1;
+  background-image: url(http://xs10.swackett.com/s2/wp-content/uploads/cnn-tech.jpg);
+  background-size: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* ------------------------ DEFAULT CSS --------------------------- */
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
